@@ -1,0 +1,10 @@
+{ 
+  "extends": "../../tsconfig.base.json",
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "dist", // 指定输出目录
+    "target": "es5", // 目标语言的版本
+    "module": "ESNext", // 生成代码的模板标准
+    "lib": ["ESNext", "DOM"],
+  }
+}
